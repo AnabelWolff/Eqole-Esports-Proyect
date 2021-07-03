@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CONSTRUYENDO EL MARCADO DEL FUTURO. Bienvenidos al Shop! Nuevo merch disponible">
+    <meta name="keywords" content="Eqole, eqole team, deportes electronicos, esports, shop, merchandising, tienda, hoodie, wear, eqole wear">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <title>Eqole Shop | Hoodie</title>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="shortcurt icon" type="text/x-icon" href="../../img/logos/eqole-favicon.ico">
+</head>
+<body class="container-fluid p-0 m-0 w-100"> 
+
+    <!-- HEADER -->
+    <header class="header">
+        <!-- NAVEGACION -->
+        <nav class="upNavBar navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <a class="navBarLogo navbar-brand" href="../../index.html"><img src="../../img/logos/logo-eqolecorp.png" alt="logo-eqole" width="130" height="60"/></a> <!-- solo colores #1ACCE8 AZUL 1#001C40 AZUL 2 #FFFFFF BLANCO-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>    
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <!-- MENU -->
+            <ul class="navBarMenu navbar-nav mr-auto">
+                <li class="navBarItem nav-item active">
+                    <a class="navBarLink nav-link text-white" href="../../index.html">INICIO</a>
+                </li>
+                <li class="navBarItem nav-item">
+                    <a class="navBarLink nav-link text-white" href="../../pages/acerca.html">ACERCA</a>
+                </li>
+                <li class="navBarItem nav-item">
+                    <a class="navBarLink nav-link text-white" href="../../pages/familia.html">FAMILIA</a>
+                </li>
+                <li class="navBarItem nav-item">
+                    <a class="navBarLink nav-link text-white" href="../../pages/servicios.html">SERVICIOS</a>
+                </li>
+                <li class="navBarItem nav-item">
+                    <a class="navBarLink nav-link text-white" href="../../pages/noticias.html">NOTICIAS</a>
+                </li>
+                <li class="navBarItem nav-item">
+                    <a class="navBarLink nav-link text-white" href="../../pages/shop.html">SHOP</a>
+                </li>
+                <li class="navBarItem nav-item">
+                    <a class="navBarLink nav-link text-white" href="../../pages/contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main class="ropaMain">
+        <section class="flexShop">
+
+            <!-- IZQ IMAGENES -->
+            <div class="flexIzqShop">
+                <div class="shopImg">
+                    <img src="../../img/merch/Eqole-hoodie-negro.png" width="280px" height="350px" alt="hoodie color negro con logo en blanco">
+                    <img src="../../img/merch/Eqole-hoodie-blanco.png" width="280px" height="350px" alt="hoodie color blanco con logo en celeste">
+                </div>
+            </div>
+
+            <!-- DER SELECCION -->
+            <div class="flexDerShop">
+                <div class="shopSelect flex-column">
+                    <h1 class="display-4"><u>EQOLE - HOODIE</u></h1>
+                    <h2>$2.000</h2>
+                    <h3>Talle</h3>
+                    <form class="cSelector d-flex justify-content-start flex-column p-0 m-0 w-100">
+                        <div class="d-flex justify-content-around w-100">
+                            <div class="form-check">
+                                <label for="talle">S</label>
+                                <input type="radio" name="talle" value="s" checked>
+                            </div>
+                            <div class="form-check">
+                                <label for="talle">M</label>
+                                <input type="radio" name="talle" value="m" checked>
+                            </div>
+                            <div class="form-check">
+                                <label for="talle">L</label>
+                                <input type="radio" name="talle" value="l" disabled>
+                            </div>
+                            <div class="form-check">
+                                <label for="talle">XL</label>
+                                <input type="radio" name="talle" value="xl" checked>
+                            </div>
+                            <div class="form-check">
+                                <label for="talle">XXL</label>
+                                <input type="radio" name="talle" value="xxl" checked>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-around w-100">
+                            <div class="form-check">
+                                <label for="talle">8 años</label>
+                                <input type="radio" name="talle" value="8" disabled>
+                            </div>
+                            <div class="form-check"> 
+                                <label for="talle">10 años</label>
+                                <input type="radio" name="talle" value="10" disabled>
+                            </div>
+                            <div class="form-check">
+                                <label for="talle">12 años</label>
+                                <input type="radio" name="talle" value="12" disabled>
+                            </div>
+                        </div>
+                    
+                        <h2 class="color">Elige el color</h2>
+                        <section class="elegir__color">
+                            <div class="caja__color">
+                                <label for="color">Blanco/Celeste</label>
+                                <input type="radio" name="color" value="blanco" checked>
+                            </div>
+                            <div class="caja__color">
+                                <label for="color">Negro/Blanco</label>
+                                <input type="radio" name="color" value="negro" checked>
+                            </div>
+                        </section>
+                        <section class="cantidad">
+                            <label for="cantidad">Cantidad</label>
+                            <input type="number" min="1" max="10000" name="cantidad" id="cantidad">
+                        </section>
+                        <div class="shop__boton">
+                            <input class="carrito" type="submit" value="Agregar al Carrito">
+                            <input class="comprar" type="submit" value="Comprar Ahora">
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">DESCRIPCION
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul class="con__estilo" >
+                                            <li>Producto Oficial Eqole</li>
+                                            <li>280 g/m²</li>
+                                            <li>80% algodón / 20% poliéster (tejido de 3 capas)</li>
+                                            <li>Capucha doble capa</li>
+                                            <li>Tallas infantiles sin cordones en la capucha</li>
+                                            <li>Producción bajo demanda</li>
+                                            <li><a href="../productos/tabla-de-talles.html">Guía de Talles</a></li>
+                                        </ul>
+                                        <div class="line"></div>
+                                        <h4 class="infoPagos">Envios <span class="span">worldwide</span> y formas de pago</h4>
+                                        <ul class="lista2">
+                                            <li>Tarjetas de Crédito/Débito:
+                                                <ul class="lista3">
+                                                    <li>Visa</li>
+                                                    <li>Mastercard</li>
+                                                    <li>Amex</li>
+                                                </ul>
+                                            </li>
+                                            <li>Efectivo (15% de desc.)</li>
+                                            <li>Transferencia/ Depósito (10% de desc.)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                        <div class="contenedor__volver">
+                            <a href="../shop.html" target="_target" class="btn btn-info">VOLVER</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer container-fluid-md">
+        <h2 class="footerLink">EQOLE | ALL RIGHTS RESERVED</h2>
+        <h2 class="footerLink"><a href="https://twitter.com/eqolecorp" target="_blank">TWITTER</a></h2>
+        <h2 class="footerLink"><a href="https://www.linkedin.com/company/ecole-esports/" target="_blank">LINKEDIN</a></h2>  
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
